@@ -1,0 +1,14 @@
+{
+  "name": "ai-jmeter-script-creation",
+  "description": "Claude Code plugin marketplace for TesterGuruJi's performance testing agents.",
+  "owner": {
+    "name": "Vaibhav Srivastava"
+  },
+  "plugins": [
+    {
+      "name": "jmeter-script-creation",
+      "source": "./",
+      "description": "Subagents that create JMeter scripts from a test plan and migrate LoadRunner VuGen scripts to JMeter or k6."
+    }
+  ]
+}

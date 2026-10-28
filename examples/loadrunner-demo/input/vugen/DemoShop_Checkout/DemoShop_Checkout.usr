@@ -1,0 +1,26 @@
+[General]
+Type=Multi
+AdditionalTypes=QTWeb
+ActionLogicExt=action
+UserName=TesterGuruJi
+SubType=Web
+ParameterFile=DemoShop_Checkout.prm
+GlobalParameterFile=
+RunType=cci
+DefaultCfg=default.cfg
+DefaultRunLogic=default.usp
+
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
